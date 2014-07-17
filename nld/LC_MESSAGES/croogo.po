@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: croogo dutch\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2014-07-16 16:17+0200\n"
+"PO-Revision-Date: 2014-07-17 16:06+0200\n"
 "Last-Translator: Marlin Cremers <m.cremers@cvo-technologies.com>\n"
 "Language-Team: Dutch (ISO 639-2) <http://weblate.mms-"
 "projects.net/projects/croogo/croogo-locale/nld/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 1.9-dev\n"
+"X-Generator: Weblate 1.9\n"
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-Country: NETHERLANDS\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -2125,7 +2125,7 @@ msgstr ""
 
 #: FileManager/Controller/FileManagerController.php:331
 msgid "File created successfully."
-msgstr "Bstand succesvol aangemaakt"
+msgstr "Bestand succesvol aangemaakt."
 
 #: FileManager/Model/Attachment.php:95
 msgid "Error during file upload"
@@ -2166,7 +2166,7 @@ msgstr "Bestands url"
 
 #: FileManager/View/Attachments/admin_edit.ctp:56
 msgid "Mime Type"
-msgstr "Mime Type"
+msgstr ""
 
 #: FileManager/View/FileManager/admin_browse.ctp:13
 msgid "Upload here"
@@ -2344,7 +2344,7 @@ msgstr ""
 
 #: Install/Lib/InstallManager.php:48
 msgid "Could not write database.php file."
-msgstr "database.php kon niet worden weggeschreven"
+msgstr "Kon database.php niet worden weggeschreven."
 
 #: Install/Lib/InstallManager.php:56
 msgid "Could not connect to database: "
@@ -2352,7 +2352,7 @@ msgstr ""
 
 #: Install/Lib/InstallManager.php:59
 msgid "Could not connect to database."
-msgstr "Kon geen verbinding maken met de database"
+msgstr "Kon geen verbinding maken met de database."
 
 #: Install/View/Install/adminuser.ctp:7
 msgid "Step 3: Create Admin User"
@@ -2521,7 +2521,7 @@ msgstr "De link is opgeslagen"
 
 #: Menus/Controller/LinksController.php:156;200
 msgid "The Link could not be saved. Please, try again."
-msgstr "De link kon niet worden opgeslagen"
+msgstr "De link kon niet worden opgeslagen. Probeer het nogmaals."
 
 #: Menus/Controller/LinksController.php:175
 msgid "Edit Link"
@@ -2561,7 +2561,7 @@ msgstr "Het menu is opgeslagen"
 
 #: Menus/Controller/MenusController.php:90;114
 msgid "The Menu could not be saved. Please, try again."
-msgstr "het menu kon niet worden opgeslagen"
+msgstr "Het menu kon niet worden opgeslagen. Probeer het nogmaals."
 
 #: Menus/Controller/MenusController.php:103
 msgid "Edit Menu"
@@ -2658,7 +2658,7 @@ msgstr "Inhoud aanmaken"
 
 #: Nodes/Controller/NodesController.php:164
 msgid "Content type does not exist."
-msgstr "Inhoudtype bestaat niet"
+msgstr "Inhoudstype bestaat niet."
 
 #: Nodes/Controller/NodesController.php:175;216
 msgid "%s has been saved"
@@ -2678,7 +2678,7 @@ msgstr ""
 
 #: Nodes/Controller/NodesController.php:242
 msgid "Paths updated."
-msgstr "Paden bijgewerkt"
+msgstr "Paden bijgewerkt."
 
 #: Nodes/Controller/NodesController.php:245
 msgid ""
@@ -2720,7 +2720,7 @@ msgstr "Nodes gekopieërd"
 
 #: Nodes/Controller/NodesController.php:377;478;548;611
 msgid "Invalid content type."
-msgstr "Ongeldig inhoudtype"
+msgstr "Ongeldig inhoudstype."
 
 #: Nodes/Controller/NodesController.php:435
 msgid "Invalid Term."
