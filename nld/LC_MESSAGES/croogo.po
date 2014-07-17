@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: croogo dutch\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2014-07-17 16:06+0200\n"
-"Last-Translator: Marlin Cremers <m.cremers@cvo-technologies.com>\n"
+"PO-Revision-Date: 2014-07-17 21:00+0200\n"
+"Last-Translator: Marlin Cremers <m.cremers@mms-projects.net>\n"
 "Language-Team: Dutch (ISO 639-2) <http://weblate.mms-"
 "projects.net/projects/croogo/croogo-locale/nld/>\n"
 "Language: nld\n"
@@ -2744,7 +2744,7 @@ msgstr "Geplaatst in"
 
 #: Nodes/View/Elements/node_more_info.ctp:29
 msgid "Leave a comment"
-msgstr "Laat een commentaar achter"
+msgstr "Laat een reactie achter"
 
 #: Nodes/View/Elements/search.ctp:7
 #: Nodes/View/Elements/admin/nodes_search.ctp:24
