@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: croogo dutch\n"
 "POT-Creation-Date: 2012-07-08 17:30+0700\n"
-"PO-Revision-Date: 2014-07-17 21:00+0200\n"
+"PO-Revision-Date: 2014-07-18 08:41+0200\n"
 "Last-Translator: Marlin Cremers <m.cremers@mms-projects.net>\n"
 "Language-Team: Dutch (ISO 639-2) <http://weblate.mms-"
 "projects.net/projects/croogo/croogo-locale/nld/>\n"
@@ -154,7 +154,7 @@ msgstr "ACL database is succesvol geupgrade"
 
 #: Acl/Controller/Component/AclAccessComponent.php:52
 msgid "Parent Role"
-msgstr ""
+msgstr "Ouder Rol"
 
 #: Acl/Controller/Component/AclFilterComponent.php:82
 msgid ""
@@ -179,7 +179,7 @@ msgstr "Aco node aangemaakt: 5s"
 
 #: Acl/Lib/AclExtras.php:192
 msgid "<error>Plugin %s not found or not activated</error>"
-msgstr ""
+msgstr "<error>Plugin %s niet gevonden of niet geactiveerd</error>"
 
 #: Acl/Lib/AclExtras.php:208
 msgid "<success>Aco Sync Complete</success>"
@@ -195,7 +195,7 @@ msgstr ""
 
 #: Acl/Lib/AclExtras.php:261
 msgid "Deleted %s and all children"
-msgstr ""
+msgstr "%s verwijderd met z'n kinderen"
 
 #: Acl/Lib/AclExtras.php:291;366
 msgid "Created Aco node: <success>%s</success>"
@@ -211,11 +211,11 @@ msgstr ""
 
 #: Acl/Lib/AclExtras.php:475
 msgid "Tree has been recovered, or tree did not need recovery."
-msgstr ""
+msgstr "Boomstructuur is hersteld, of de boomstructuur had geen herstel nodig."
 
 #: Acl/Lib/AclExtras.php:477
 msgid "<error>Tree recovery failed.</error>"
-msgstr ""
+msgstr "<error>Boomstructuur herstel is mislukt.</error>"
 
 #: Acl/Lib/AclUpgrade.php:67
 msgid "No root node found"
@@ -1711,7 +1711,7 @@ msgstr "Extensies"
 #: Extensions/View/ExtensionsThemes/admin_add.ctp:6
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:7
 msgid "Themes"
-msgstr "Themas"
+msgstr "Thema's"
 
 #: Extensions/Config/admin_menu.php:25
 #: Extensions/Controller/ExtensionsLocalesController.php:44
@@ -1734,11 +1734,11 @@ msgstr "Data migratie hulpprogramma"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:66
 msgid "Locale does not exist."
-msgstr "Locale bestaat niet."
+msgstr "Lokalisatie bestaat niet."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:72
 msgid "Locale '%s' set as default"
-msgstr "Locale '%s' ingesteld als standaaed"
+msgstr "Lokalisatie '%s' ingesteld als standaaed"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:74
 msgid "Could not save Locale setting."
@@ -1746,19 +1746,19 @@ msgstr "Kon Locale instelling niet opslaan."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:85
 msgid "Upload a new locale"
-msgstr "Upload een nieuwe locale"
+msgstr "Upload een nieuwe lokalisatie"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:111;166
 msgid "Invalid locale."
-msgstr "Ongeldige locale."
+msgstr "Ongeldige lokalisatie."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:116
 msgid "Locale already exists."
-msgstr "Locale bestaat al."
+msgstr "Lokalisatie bestaat al."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:163
 msgid "Edit locale: %s"
-msgstr "Bewerk locale: %s"
+msgstr "Bewerk lokalisatie: %s"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:173
 msgid "The file %s does not exist."
@@ -1766,20 +1766,20 @@ msgstr "Het bestand %s bestaat niet."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:183
 msgid "Locale updated successfully"
-msgstr "Locale succesvol geupdate"
+msgstr "Lokalisatie succesvol geupdate"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:199
 #: Translate/Controller/TranslateController.php:109
 msgid "Invalid locale"
-msgstr "Ongeldige locale"
+msgstr "Ongeldige lokalisatie"
 
 #: Extensions/Controller/ExtensionsLocalesController.php:205
 msgid "Locale deleted successfully."
-msgstr "Locale succesvol verwijderd."
+msgstr "Lokalisatie succesvol verwijderd."
 
 #: Extensions/Controller/ExtensionsLocalesController.php:207
 msgid "Local could not be deleted."
-msgstr "Locale kon niet worden verwijderd."
+msgstr "Lokalisatie kon niet worden verwijderd."
 
 #: Extensions/Controller/ExtensionsPluginsController.php:83
 msgid "Upload a new plugin"
@@ -1842,7 +1842,7 @@ msgstr "Upload een nieuw thema"
 
 #: Extensions/Controller/ExtensionsThemesController.php:104
 msgid "Theme uploaded successfully."
-msgstr "Theme succesvol geupload."
+msgstr "Thema succesvol geüpload."
 
 #: Extensions/Controller/ExtensionsThemesController.php:118
 msgid "Theme Editor"
@@ -1924,15 +1924,15 @@ msgstr "Ongeldige plugin.json of missende plugin naam"
 
 #: Extensions/Lib/ExtensionsInstaller.php:99
 msgid "Missing expected files: %s in: %s"
-msgstr ""
+msgstr "Verwachte bestanden missen: %s in: %s"
 
 #: Extensions/Lib/ExtensionsInstaller.php:100
 msgid "Invalid plugin or missing expected files"
-msgstr ""
+msgstr "Ongeldige plugin of missende verwachte bestanden"
 
 #: Extensions/Lib/ExtensionsInstaller.php:125
 msgid "Invalid plugin file path"
-msgstr ""
+msgstr "Ongeldig plugin bestand pad"
 
 #: Extensions/Lib/ExtensionsInstaller.php:136
 msgid "Plugin already exists"
@@ -1940,23 +1940,23 @@ msgstr ""
 
 #: Extensions/Lib/ExtensionsInstaller.php:152
 msgid "Failed to extract plugin"
-msgstr ""
+msgstr "Plugin uitpakken is mislukt"
 
 #: Extensions/Lib/ExtensionsInstaller.php:165
 msgid "Invalid theme path"
-msgstr ""
+msgstr "Ongeldig thema pad"
 
 #: Extensions/Lib/ExtensionsInstaller.php:206
 msgid "Invalid theme file path"
-msgstr ""
+msgstr "Ongeldig thema bestand pad"
 
 #: Extensions/Lib/ExtensionsInstaller.php:217
 msgid "Theme already exists"
-msgstr ""
+msgstr "Thema bestaat al"
 
 #: Extensions/Lib/ExtensionsInstaller.php:233
 msgid "Failed to extract theme"
-msgstr ""
+msgstr "Thema uitpakken is mislukt"
 
 #: Extensions/Lib/ExtensionsInstaller.php:252
 msgid "Must specify a valid package name: vendor/name."
@@ -1964,7 +1964,7 @@ msgstr ""
 
 #: Extensions/Lib/ExtensionsInstaller.php:255
 msgid "Themes installed via composer are not yet supported."
-msgstr ""
+msgstr "Thema's geinstalleerd via composer zijn nog niet ondersteund."
 
 #: Extensions/View/ExtensionsLocales/admin_add.ctp:6;25;46
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:13
@@ -1982,11 +1982,11 @@ msgstr "Upload"
 #: Nodes/View/Nodes/admin_translations.ctp:26
 #: Translate/View/Translate/admin_index.ctp:42
 msgid "Locale"
-msgstr ""
+msgstr "Lokalisatie"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:24
 msgid "Default"
-msgstr ""
+msgstr "Standaard"
 
 #: Extensions/View/ExtensionsLocales/admin_index.ctp:39
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:39
@@ -2005,15 +2005,15 @@ msgstr "Omschrijving"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:27
 msgid "Active"
-msgstr ""
+msgstr "Actief"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:39
 msgid "Deactivate"
-msgstr ""
+msgstr "Deactiveer"
 
 #: Extensions/View/ExtensionsPlugins/admin_index.ctp:71
 msgid "Migrate"
-msgstr ""
+msgstr "Migreer"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:25
 msgid "Current Theme"
@@ -2029,7 +2029,7 @@ msgstr "Beschikbare gebieden"
 
 #: Extensions/View/ExtensionsThemes/admin_index.ctp:135
 msgid "No available theme"
-msgstr ""
+msgstr "Geen thema beschikbaar"
 
 #: FileManager/Config/admin_menu.php:5
 msgid "Media"
@@ -2060,6 +2060,8 @@ msgstr "Bijlage toevoegen"
 #: FileManager/Controller/AttachmentsController.php:122
 msgid "Upload failed. Please ensure size does not exceed the server limit."
 msgstr ""
+"Upload is mislukt. Zorg ervoor dat grootte het server limiet niet "
+"overschrijd."
 
 #: FileManager/Controller/AttachmentsController.php:129;162
 msgid "The Attachment has been saved"
@@ -2087,11 +2089,11 @@ msgstr "Bijlage verwijderd"
 
 #: FileManager/Controller/FileManagerController.php:118;150;214
 msgid "Path %s is restricted"
-msgstr ""
+msgstr "Pad %s is beperkt"
 
 #: FileManager/Controller/FileManagerController.php:153
 msgid "Edit file: %s"
-msgstr ""
+msgstr "Bewerk bestand: %s"
 
 #: FileManager/Controller/FileManagerController.php:164
 msgid "File saved successfully"
@@ -2112,7 +2114,7 @@ msgstr "Bestandsmap verwijderd"
 #: FileManager/Controller/FileManagerController.php:292
 #: FileManager/View/FileManager/admin_create_directory.ctp:5;14
 msgid "Create Directory"
-msgstr ""
+msgstr "Maak map"
 
 #: FileManager/Controller/FileManagerController.php:303
 msgid "Directory created successfully."
@@ -2121,7 +2123,7 @@ msgstr "Bestandsmap succesvol aangemaakt"
 #: FileManager/Controller/FileManagerController.php:321
 #: FileManager/View/FileManager/admin_create_file.ctp:5
 msgid "Create File"
-msgstr ""
+msgstr "Maap bestand"
 
 #: FileManager/Controller/FileManagerController.php:331
 msgid "File created successfully."
@@ -2129,7 +2131,7 @@ msgstr "Bestand succesvol aangemaakt."
 
 #: FileManager/Model/Attachment.php:95
 msgid "Error during file upload"
-msgstr ""
+msgstr "Fout tijdens bestands-upload"
 
 #: FileManager/View/Attachments/admin_browse.ctp:10
 msgid "New Attachment"
@@ -3307,7 +3309,7 @@ msgstr ""
 
 #: Translate/Controller/TranslateController.php:184
 msgid "Invalid Locale or ID"
-msgstr ""
+msgstr "Ongeldige lokalisatie of ID"
 
 #: Translate/Controller/TranslateController.php:222
 msgid "Translation for the locale deleted successfully."
